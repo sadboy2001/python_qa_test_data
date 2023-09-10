@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "name": "Doomguy",
+            "skill": 100,
+            "gold": "99999",
+            "weapons": [
+                "Sword",
+                "Atomic Laser"
+            ],
+            "alive": true
+        },
+        {
+            "name": "Looser",
+            "skill": 1,
+            "gold": "-100000",
+            "weapons": [
+                null,
+                null,
+                null
+            ],
+            "alive": false
+        }
+    ]
+}
