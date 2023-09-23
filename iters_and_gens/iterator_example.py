@@ -1,6 +1,7 @@
+# пример итератора через магические методы iter и next
 class MyNumbers:
     def __iter__(self):
-        self.a =1
+        self.a = 1
         return self
 
     def __next__(self):

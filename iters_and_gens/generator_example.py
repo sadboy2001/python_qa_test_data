@@ -3,6 +3,8 @@ def squares(start, stop):
         # yield keyword is used
         yield i * i
 
+# генератор упрощает конструирование генераторов
+
 
 generator = squares(1, 10)
 
@@ -23,6 +25,8 @@ for item in lst:
 
 
 # list comprehension - списковые включения
+# данная функция позволяет найти буквы в слове, если они там есть
+# так же заменяет остальные буквы на *, если их нет в списке
 new_list = [x if x in 'aeiou' else '*' for x in 'apple']
 
 for item in new_list:
